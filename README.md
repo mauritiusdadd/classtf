@@ -1,6 +1,7 @@
 # classtf
-
 classtf is a Random Forest Classifier based on Tensorflow (TM)
+
+[![Build Status](https://travis-ci.com/mauritiusdadd/classtf.svg?branch=master)](https://travis-ci.com/mauritiusdadd/classtf)
 
 ## Usage
 classtf.py [-h] [-r FILE] [-t FILE] [-x FILE] [-f] [--loss-treshold VALUE] [--train-timeout TIME_INTERVAL]  [-c TARGET_FEATURE_ID] [--ignore-features  [...]] [-d MODEL_DIR] [-n NUM_OF_TREES] [-b BATCH_SIZE] [--depth NUM_NODES] [-v]

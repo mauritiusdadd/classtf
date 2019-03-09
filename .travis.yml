@@ -1,0 +1,17 @@
+language: python
+
+os:
+  - linux
+
+sudo: off
+
+python:
+  - "3.4"
+  - "3.5"
+  - "3.6"
+
+# command to install dependencies
+install:
+
+script:
+  - python classtf.py --help
